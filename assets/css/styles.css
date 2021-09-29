@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#header-div {
+    display: flex;
+}
+
+#highscore a {
+    text-decoration: none;
+}
+
+#container {
+    display: grid;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    left: 25%;
+    justify-content: stretch;
+    align-items: center;
+    flex-direction: column;
+    border: black;
+    border-radius: 65px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#container-header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#container-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+#container-footer {
+    display: flex;
+    padding-left: 10px;
+    justify-content: center;
+    align-content: center;
+}
+
+.answer {
+    list-style: none;
+}
+
+.buttons {
+    color: white;
+    background-color: rgb(103, 22, 179);
+    margin-top: 15px;
+    padding: 3px 5px;
+    border-radius: 4px;
+}
