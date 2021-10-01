@@ -20,14 +20,28 @@ var questionArr = [
     {
         question: "Question1",
         answerChoices: [
-            "Choice1.1", "Choice2.1", "Choice3.1", "Choice4.1"
+            "Choice1.1", "answer", "Choice3.1", "Choice4.1"
         ],
         answer: "answer",
     }, 
     {
         question: "Question2",
         answerChoices: [
-            "Choice1.2", "Choice2.2", "Choice3.2", "Choice4.2"
+            "Choice1.2", "Choice2.2", "Choice3.2", "answer"
+        ],
+        answer: "answer"
+    },
+    {
+        question: "Question3",
+        answerChoices: [
+            "Choice1.2", "Choice2.2", "answer", "Choice"
+        ],
+        answer: "answer"
+    },
+    {
+        question: "Question4",
+        answerChoices: [
+            "answer", "Choice2.2", "Choice3.2", "Choice"
         ],
         answer: "answer"
     }
