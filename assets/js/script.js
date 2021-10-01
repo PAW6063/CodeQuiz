@@ -164,9 +164,9 @@ function highScore() {
 
 startBtn.on('click', function() {
     timeLeft = 75;
-    startBtn.css('visibility', 'hidden');
-    instructions.css('visibility', 'hidden');
-    startTitle.css('visibility', 'hidden');
+    startBtn.css('display', 'none');
+    instructions.css('display', 'none');
+    startTitle.css('display', 'none');
 
     startQuiz();
     nextQuestion();
@@ -204,9 +204,9 @@ $('form').on('click', '.goBack', function(event) {
 
     questionHeadder.text('');
 
-    startBtn.css('visibility', 'visible');
-    instructions.css('visibility', 'visible');
-    startTitle.css('visibility', 'visible');
+    startBtn.css('display', 'inline-block');
+    instructions.css('display', 'block');
+    startTitle.css('display', 'block');
 
     index = 0;
 });
