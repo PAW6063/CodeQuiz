@@ -1,4 +1,4 @@
-# Homework04_CodeQuiz
+# CodeQuiz
 This application is a code quiz for boot camp students to test their knowledge on coding fundamentals. It will implement front and backend technologies learned in class featuring HTML, CSS, and JavaScript. 
 
 ## How it works
@@ -14,7 +14,7 @@ The user is displayed with a starting screen that shows a title, instructions, a
 # Links
 
 ## Deployed project
-https://paw6063.github.io/Homework04_CodeQuiz/
+https://paw6063.github.io/CodeQuiz/
 
 ## Github Repository
-https://github.com/PAW6063/Homework04_CodeQuiz
+https://github.com/PAW6063/CodeQuiz
